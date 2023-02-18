@@ -19,3 +19,7 @@
 ## Deploy
 
 - `eb deploy`
+
+
+## Guides
+- Email https://www.baeldung.com/spring-email
