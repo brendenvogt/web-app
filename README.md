@@ -23,3 +23,7 @@
 
 ## Guides
 - Email https://www.baeldung.com/spring-email
+
+## TODO 
+- DB connection
+- AWS Spring Cloud https://awspring.io/

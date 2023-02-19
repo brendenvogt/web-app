@@ -14,11 +14,11 @@ public class EmailConfiguration {
     public CommandLineRunner testEmailSender(final EmailService emailService) {
         return args -> {
             System.out.println("Sending email");
-            //emailService.sendSimpleMessage(
-            //        "bvogtdev@gmail.com",
-            //        "Hey from spring",
-            //        "This is a test from spring local dev"
-            //);
+            emailService.sendSimpleMessage(
+                    "bvogtdev@gmail.com",
+                    "Hey from spring",
+                    "This is a test from spring local dev"
+            );
         };
     }
 
