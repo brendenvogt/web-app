@@ -1,5 +1,11 @@
 # web-app
 
+## Development Setup
+
+- define application-dev.properties file and activate the profile by enabling VM options in the run config and adding `-Dspring.profiles.active=dev`
+  - https://stackoverflow.com/questions/39738901/how-do-i-activate-a-spring-boot-profile-when-running-from-intellij
+
+
 ## Deploy setup
 
 - install elastic beanstalk cli
@@ -23,7 +29,15 @@
 
 ## Guides
 - Email https://www.baeldung.com/spring-email
+- H2 in memory database for testing https://www.baeldung.com/spring-boot-h2-database
+- uses OpenAPI Swagger https://www.baeldung.com/spring-rest-openapi-documentation
 
 ## TODO 
 - DB connection
+  - DynamoDB
+  - Postgresql
 - AWS Spring Cloud https://awspring.io/
+- ElastiCache
+- Lambda
+  - Scheduled Lambda
+  - Recurring (Cron) Lambda
