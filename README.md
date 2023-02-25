@@ -16,6 +16,7 @@
   - configure as local
 - `eb create` - this will take a while
   - you can also use `eb create <ENV NAME>` to create a new environment such as prod.
+- `eb setenv SMTP_EMAIL_PASSWORD=PASSWORD SMTP_EMAIL_USERNAME=USERNAME SMTP_FROM_EMAIL=mail@YOUREMAIL.com`
 - `eb open`
 
 ## Build
@@ -26,6 +27,9 @@
 
 - `eb deploy`
 
+## Tear down
+
+- `eb terminate` - then put in the name of the environment
 
 ## Guides
 - Email https://www.baeldung.com/spring-email
